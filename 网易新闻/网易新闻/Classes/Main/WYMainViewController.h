@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WYMainViewController.h
 //  网易新闻
 //
 //  Created by 刘宏立 on 16/6/28.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WYMainViewController : UITabBarController
 
 @end
-
