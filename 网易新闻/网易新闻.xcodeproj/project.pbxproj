@@ -68,6 +68,7 @@
 		F2380AE71D22A47A001765DF /* WYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYMainViewController.m; sourceTree = "<group>"; };
 		F2380AE91D22A4A1001765DF /* WYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYHomeViewController.h; sourceTree = "<group>"; };
 		F2380AEA1D22A4A1001765DF /* WYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYHomeViewController.m; sourceTree = "<group>"; };
+		F2380AEC1D22AF23001765DF /* WYPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYPrefix.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +137,7 @@
 				F2380A8D1D229D21001765DF /* LaunchScreen.storyboard */,
 				F2380A901D229D21001765DF /* Info.plist */,
 				F2380A801D229D21001765DF /* main.m */,
+				F2380AEC1D22AF23001765DF /* WYPrefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -453,6 +455,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "网易新闻/WYPrefix.pch";
 				INFOPLIST_FILE = "网易新闻/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -469,6 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "网易新闻/WYPrefix.pch";
 				INFOPLIST_FILE = "网易新闻/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

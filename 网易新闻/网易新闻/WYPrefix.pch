@@ -1,0 +1,17 @@
+//
+//  WYPrefix.pch
+//  网易新闻
+//
+//  Created by 刘宏立 on 16/6/28.
+//  Copyright © 2016年 lhl. All rights reserved.
+//
+
+
+// PCH 文件, 一旦设置全局有效,单独建单例和需要封装的第三方框架不需要写在 PCH 文件中
+#if __OBJC__
+
+#import <Masonry.h>
+#import <NSObject+YYModel.h>
+#import "CZAdditions.h"
+
+#endif
